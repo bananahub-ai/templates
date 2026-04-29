@@ -1,0 +1,15 @@
+{
+  "type": "multi",
+  "name": "BananaHub Official Templates",
+  "description": "Official BananaHub prompt and workflow templates maintained outside the skill runtime.",
+  "templates": [
+    "app-web-logo-system",
+    "article-illustration-workflow",
+    "asset-style-consistency-pack",
+    "consistent-character-storyboard",
+    "cute-sticker",
+    "cyberpunk-city",
+    "minimal-wallpaper",
+    "readme-launch-visual"
+  ]
+}
