@@ -19,6 +19,7 @@ Official BananaHub prompt and workflow templates live here, outside the BananaHu
 | `consistent-character-storyboard` | workflow | Character identity, contact sheets, storyboard exploration |
 | `cute-sticker` | prompt | Chibi sticker and emoji-style assets |
 | `cyberpunk-city` | prompt | Cinematic neon city scenes |
+| `github-repo-visual-kit` | workflow | Repo-aware README hero, user infographic, deployment guide, and social-preview visuals |
 | `minimal-wallpaper` | prompt | Minimal mobile wallpapers |
 | `readme-launch-visual` | workflow | README hero images, OG covers, launch visuals |
 
