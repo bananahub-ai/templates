@@ -38,7 +38,7 @@ Inside BananaHub Skill, prefer discovery:
 
 ## Verified Models
 
-No sample image is checked in yet. The workflow is prompt- and process-validated, with model verification pending.
+- `gpt-image-2` — verified with `samples/sample-gpt-image-2-01.png` for a BananaHub Skill README hero sample with locked title, subtitle, and four workflow labels.
 
 ## Supported Models
 
@@ -49,7 +49,9 @@ No sample image is checked in yet. The workflow is prompt- and process-validated
 
 ## Sample Outputs
 
-No sample outputs are included yet. Add samples only after validating them against a real repository brief and keeping any visible claims factual.
+| File | Provider | Model | Prompt Variant | Notes |
+|---|---|---|---|---|
+| `samples/sample-gpt-image-2-01.png` | `chatgpt-compatible` | `gpt-image-2` | `gpt-image` | BananaHub Skill README hero with locked title, subtitle, and workflow labels. This sample demonstrates text control and README-friendly composition; provider routing is gateway-dependent. |
 
 ## License
 

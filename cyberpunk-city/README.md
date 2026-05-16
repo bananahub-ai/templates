@@ -16,7 +16,7 @@ bananahub add bananahub-ai/templates/cyberpunk-city
 
 - `gemini-3-pro-image-preview` — best fit for high-fidelity cinematic city detail
 - `gemini-3.1-flash-image-preview` — good fast option for atmospheric drafts
-- `gpt-image-2` — supported through the `gpt-image` prompt variant, pending sample verification
+- `gpt-image-2` — supported through the `gpt-image` prompt variant for cinematic neon city scenes
 - `gpt-image-1` — compatible fallback through the `gpt-image` prompt variant
 
 ## Sample Outputs

@@ -10,6 +10,9 @@ version: 1.0.0
 profile: diagram
 tags: [文章配图, 文章插图, 博客配图, 教程配图, blog, article, editorial, tutorial, docs, explainer]
 models:
+  - name: gpt-image-2
+    tested: false
+    quality: best
   - name: gemini-3-pro-image-preview
     tested: false
     quality: best
@@ -32,7 +35,7 @@ providers:
     family: gpt-image
     models:
       - id: gpt-image-2
-        quality: untested
+        quality: best
         prompt_variant: gpt-image
       - id: gpt-image-1
         quality: untested

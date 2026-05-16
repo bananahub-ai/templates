@@ -5,7 +5,7 @@ A BananaHub workflow template for generating app and web logos with platform-awa
 ## Install
 
 ```bash
-npx bananahub add bananahub-ai/bananahub-skill/app-web-logo-system
+bananahub add bananahub-ai/templates/app-web-logo-system
 ```
 
 ## Best Practices
@@ -51,6 +51,7 @@ The checked-in BananaHub sample is a worked example of the workflow after concep
 
 ## Supported Models
 
+- `gpt-image-2` — supported through the `gpt-image` prompt variant for simple icon-first logo systems and strict short text
 - `gemini-3-pro-image-preview` — best fit when concept quality, exact short text, and geometric stability matter most
 - `gemini-3.1-flash-image-preview` — good faster option for ideation and early variant exploration
 

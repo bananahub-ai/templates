@@ -5,7 +5,7 @@ A BananaHub workflow template for turning article text into a compact illustrati
 ## Install
 
 ```bash
-npx bananahub add bananahub-ai/bananahub-skill/article-illustration-workflow
+bananahub add bananahub-ai/templates/article-illustration-workflow
 ```
 
 ## Verified Models
@@ -14,6 +14,7 @@ npx bananahub add bananahub-ai/bananahub-skill/article-illustration-workflow
 
 ## Supported Models
 
+- `gpt-image-2` — supported through the `gpt-image` prompt variant when strict labels and text-light article visuals matter most
 - `gemini-3-pro-image-preview` — best fit when label accuracy, layout clarity, and article fidelity matter most
 - `gemini-3.1-flash-image-preview` — good faster option for outline-driven drafts and multi-image article packs
 

@@ -5,7 +5,7 @@ A BananaHub workflow template for role-consistent storyboard exploration. It hel
 ## Install
 
 ```bash
-npx bananahub add bananahub-ai/bananahub-skill/consistent-character-storyboard
+bananahub add bananahub-ai/templates/consistent-character-storyboard
 ```
 
 ## Verified Models
@@ -14,6 +14,7 @@ npx bananahub add bananahub-ai/bananahub-skill/consistent-character-storyboard
 
 ## Supported Models
 
+- `gpt-image-2` — supported through the `gpt-image` prompt variant for text-light contact sheets and storyboard concepts
 - `gemini-3.1-flash-image-preview` — good default for fast exploration
 - `gemini-3-pro-image-preview` — better fit when continuity and panel quality matter more than speed
 

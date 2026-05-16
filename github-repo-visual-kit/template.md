@@ -11,7 +11,7 @@ profile: diagram
 tags: [GitHub, README, 仓库配图, 信息图, 部署指南, repo, infographic, deployment, hero]
 models:
   - name: gpt-image-2
-    tested: false
+    tested: true
     quality: best
   - name: gemini-3-pro-image-preview
     tested: false
@@ -51,9 +51,15 @@ prompt_variants:
 aspect: "16:9"
 difficulty: intermediate
 category: developer
-samples: []
+samples:
+  - file: samples/sample-gpt-image-2-01.png
+    provider: chatgpt-compatible
+    model: gpt-image-2
+    prompt_variant: gpt-image
+    prompt: "Design one GitHub README visual for BananaHub Skill. Asset type: readme-hero. Title text: \"BananaHub Skill\". Main message text: \"Agent-native image workflows\". The only additional text allowed in the image is: \"Optimize\", \"Route\", \"Generate\", \"Reuse\". Verified project facts to express visually without extra words: BananaHub Skill helps agents turn image requests into reusable provider-aware workflows; it can route generation and editing across Gemini / Nano Banana, OpenAI GPT Image, compatible gateways, and host-native tools; templates can be reused for consistent results. Layout: wide 16:9 README hero with one clear headline area, four compact labeled workflow steps, and one simple product-flow illustration. Visual style: polished product-doc illustration, warm off-white background, dark readable text, restrained banana-yellow and teal accents, clean vector-like shapes, generous spacing. Do not add paragraphs, extra labels, fake badges, fake GitHub stars, fake screenshots, logos, watermarks, API keys, secret values, or clutter. Keep all visible text large and exactly spelled."
+    aspect: "16:9"
 created: 2026-05-07
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Goal

@@ -14,7 +14,7 @@ models:
     quality: good
   - name: gpt-image-2
     tested: false
-    quality: untested
+    quality: best
   - name: gemini-3-pro-image-preview
     tested: false
     quality: expected-best
@@ -34,7 +34,7 @@ providers:
     family: gpt-image
     models:
       - id: gpt-image-2
-        quality: untested
+        quality: best
         prompt_variant: gpt-image
       - id: gpt-image-1
         quality: untested

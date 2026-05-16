@@ -5,7 +5,7 @@ A BananaHub workflow template for converting README copy or product positioning 
 ## Install
 
 ```bash
-npx bananahub add bananahub-ai/bananahub-skill/readme-launch-visual
+bananahub add bananahub-ai/templates/readme-launch-visual
 ```
 
 ## Verified Models
@@ -14,6 +14,7 @@ npx bananahub add bananahub-ai/bananahub-skill/readme-launch-visual
 
 ## Supported Models
 
+- `gpt-image-2` — supported through the `gpt-image` prompt variant for locked-copy README heroes and OG covers
 - `gemini-3-pro-image-preview` — best fit when headline rendering and composition quality matter
 - `gemini-3.1-flash-image-preview` — good option for faster concepting before refining the final hero
 

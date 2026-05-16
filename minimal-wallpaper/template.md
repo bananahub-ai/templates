@@ -9,6 +9,9 @@ version: 1.0.0
 profile: minimal
 tags: [极简, 壁纸, 手机, 留白, 简约]
 models:
+  - name: gpt-image-2
+    tested: false
+    quality: best
   - name: gemini-3.1-flash-image-preview
     tested: true
     quality: good
@@ -34,7 +37,7 @@ providers:
     family: gpt-image
     models:
       - id: gpt-image-2
-        quality: untested
+        quality: best
         prompt_variant: gpt-image
       - id: gpt-image-1
         quality: untested

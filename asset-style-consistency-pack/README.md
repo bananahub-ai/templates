@@ -5,7 +5,7 @@ A BananaHub workflow template for building a consistent asset pack from local im
 ## Install
 
 ```bash
-npx bananahub add bananahub-ai/bananahub-skill/asset-style-consistency-pack
+bananahub add bananahub-ai/templates/asset-style-consistency-pack
 ```
 
 ## Verified Models
@@ -14,6 +14,7 @@ npx bananahub add bananahub-ai/bananahub-skill/asset-style-consistency-pack
 
 ## Supported Models
 
+- `gpt-image-2` — supported through the `gpt-image` prompt variant when provider edit support is available
 - `gemini-3-pro-image-preview` — strongest option when structural preservation and finish consistency both matter
 - `gemini-3.1-flash-image-preview` — useful for quicker style-normalization experiments before the final pass
 

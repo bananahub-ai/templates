@@ -9,6 +9,9 @@ version: 1.0.0
 profile: sticker
 tags: [贴纸, 表情包, Q版, 可爱, chibi]
 models:
+  - name: gpt-image-2
+    tested: false
+    quality: best
   - name: gemini-3.1-flash-image-preview
     tested: true
     quality: good
@@ -34,7 +37,7 @@ providers:
     family: gpt-image
     models:
       - id: gpt-image-2
-        quality: untested
+        quality: best
         prompt_variant: gpt-image
       - id: gpt-image-1
         quality: untested
