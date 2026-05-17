@@ -14,8 +14,6 @@ bananahub add bananahub-ai/templates/cute-sticker
 
 ## Supported Models
 
-- `gemini-3-pro-image-preview` — best fit for cleaner rendering and stronger consistency
-- `gemini-3.1-flash-image-preview` — good fast option for simple stickers
 - `gpt-image-2` — supported through the `gpt-image` prompt variant for clean, centered sticker generation
 - `gpt-image-1` — compatible fallback through the `gpt-image` prompt variant
 

@@ -15,8 +15,6 @@ bananahub add bananahub-ai/templates/consistent-character-storyboard
 ## Supported Models
 
 - `gpt-image-2` — supported through the `gpt-image` prompt variant for text-light contact sheets and storyboard concepts
-- `gemini-3.1-flash-image-preview` — good default for fast exploration
-- `gemini-3-pro-image-preview` — better fit when continuity and panel quality matter more than speed
 
 ## Sample Outputs
 
