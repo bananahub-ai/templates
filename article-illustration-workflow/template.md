@@ -52,24 +52,6 @@ aspect: "16:9"
 difficulty: intermediate
 category: docs
 samples:
-  - file: samples/sample-3-pro-01.png
-    provider: google-ai-studio
-    prompt_variant: gemini
-    model: gemini-3-pro-image-preview
-    prompt: "Create a clean article-support workflow diagram. Use only these verified facts as truth: the workflow starts by extracting verified claims from the article; it plans image slots before any generation; it generates one image at a time and reviews fidelity. Show exactly three grouped stages in a left-to-right reading order. The only text allowed anywhere in the image is: \"Extract claims\", \"Plan slots\", and \"Generate + review\". Do not add a title, caption, paragraph, badge, or any extra words. Use a restrained product-doc editorial aesthetic with warm paper-white background, ink-black linework, and muted banana-gold and teal accents. Keep the image text-light, high-contrast, and easy to understand in under ten seconds."
-    aspect: "16:9"
-  - file: samples/sample-3-pro-02.png
-    provider: google-ai-studio
-    prompt_variant: gemini
-    model: gemini-3-pro-image-preview
-    prompt: "Create a compact article-support planning card. Use only these verified facts as truth: not every paragraph needs a picture; some sections want a flowchart; some need a framework card; some are better left text-only. Use a clean three-column comparison card with obvious visual separation. The only text allowed anywhere in the image is: \"Flowchart\", \"Framework card\", and \"Text only\". Do not add a title, caption, paragraph, badge, or any extra words. Use a restrained product-doc editorial aesthetic with warm paper-white background, ink-black linework, and muted banana-gold and teal accents. Keep the image text-light, high-contrast, and understandable in under ten seconds."
-    aspect: "4:3"
-  - file: samples/sample-3-pro-03.png
-    provider: google-ai-studio
-    model: gemini-3-pro-image-preview
-    prompt_variant: gemini
-    prompt: "Create a scene-led editorial cover image for an article about planning illustrations. Use only these verified facts as truth: good article visuals should clarify the writing instead of distracting from it; the workflow reads the article first; image slots are decided later. Show a calm editorial desk scene with one printed article page as the focal object, a pencil, and three small unlabeled thumbnail frames placed nearby to suggest planning. No text anywhere in the image. Use a restrained warm editorial aesthetic with paper-white surfaces, ink-black details, and muted banana-gold and teal accents. Keep the composition clean, thoughtful, and suitable as a section cover rather than a technical diagram."
-    aspect: "3:4"
   - file: samples/sample-gpt-image-2-01.png
     provider: chatgpt-compatible
     model: gpt-image-2

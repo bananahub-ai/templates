@@ -11,7 +11,6 @@ bananahub add bananahub-ai/templates/cute-sticker
 ## Verified Models
 
 - `gpt-image-2` — verified with `samples/sample-gpt-image-2-01.png`
-- `gemini-3.1-flash-image-preview` — verified with `samples/sample-3.1-flash-01.png`
 
 ## Supported Models
 
@@ -24,7 +23,6 @@ bananahub add bananahub-ai/templates/cute-sticker
 
 | File | Model | Prompt Variant | Notes |
 |---|---|---|---|
-| `samples/sample-3.1-flash-01.png` | `gemini-3.1-flash-image-preview` | `gemini` | Chibi sticker sample with clean outline and simple background |
 | `samples/sample-gpt-image-2-01.png` | `gpt-image-2` | `gpt-image` | Chubby orange cat sticker with plain white background and clean die-cut silhouette |
 
 ## License
