@@ -11,7 +11,7 @@ profile: text-heavy
 tags: [logo, app图标, web logo, favicon, 品牌标识, icon, wordmark, maskable]
 models:
   - name: gpt-image-2
-    tested: false
+    tested: true
     quality: best
   - name: gemini-3-pro-image-preview
     tested: true
@@ -58,8 +58,14 @@ samples:
     prompt_variant: gemini
     prompt: "Create an icon-first logo system sample for BananaHub. Use one bold black peeled-banana symbol as the approved core mark, keep it centered and high-contrast on a warm off-white presentation board, and show two outputs from the same baseline: one square app-icon-safe symbol and one clean website lockup with the exact wordmark 'BananaHub'. Keep the palette monochrome, flat, and minimal. No gradients, no mascots, no extra copy beyond the locked brand name and short usage labels."
     aspect: "1:1"
+  - file: samples/sample-gpt-image-2-01.png
+    provider: chatgpt-compatible
+    model: gpt-image-2
+    prompt_variant: gpt-image
+    prompt: "Create an icon-first logo system sample for BananaHub. Asset type: square brand board. Show one bold peeled-banana symbol as the approved core mark, one app-icon-safe square, one small favicon tile, and one clean website lockup with the exact wordmark \"BananaHub\". The only visible text allowed is \"BananaHub\", \"App icon\", \"Favicon\", and \"Web lockup\". Use warm off-white background, ink-black mark, restrained banana-yellow and teal accents, flat vector-like geometry, crisp edges, generous spacing, and small-size legibility. Do not add fake slogans, extra labels, gradients, mascots, chrome, watermarks, API keys, or clutter. Keep all visible text large and exactly spelled."
+    aspect: "1:1"
 created: 2026-04-01
-updated: 2026-04-02
+updated: 2026-05-17
 ---
 
 ## Goal

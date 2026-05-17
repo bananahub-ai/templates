@@ -17,7 +17,7 @@ models:
     tested: false
     quality: good
   - name: gpt-image-2
-    tested: false
+    tested: true
     quality: best
 providers:
   - id: google-ai-studio
@@ -64,8 +64,14 @@ samples:
     prompt_variant: gemini
     prompt: "Keep the exact building layout, pool placement, fountain placement, trees, and overall camera angle unchanged. Restyle this image into a premium dusk visualization with deep navy shadows, warm interior glow, reflective water, cleaner material separation, and polished architectural presentation. Preserve the house geometry and all outdoor elements while shifting the whole image into one coherent evening-render family. Do not add new objects or change the composition."
     aspect: "16:9"
+  - file: samples/sample-gpt-image-2-01.png
+    provider: chatgpt-compatible
+    model: gpt-image-2
+    prompt_variant: gpt-image
+    prompt: "Design one clean workflow preview board for a local asset style consistency template. Title text: \"Asset Style Consistency\". The only additional text allowed is: \"Source\", \"Style anchor\", \"Consistent pack\". Show three compact cards flowing left to right: mixed source assets, one approved style anchor, and a final set of four simple assets sharing the same palette, line weight, lighting, and material style. Use warm off-white background, dark readable text, banana-gold and teal accents, polished product-doc illustration, simple arrows, generous spacing. Do not imply a real uploaded file was edited. Do not add paragraphs, extra labels, fake UI screenshots, real logos, watermarks, API keys, or clutter. Keep all visible text large and exactly spelled."
+    aspect: "16:9"
 created: 2026-03-31
-updated: 2026-04-29
+updated: 2026-05-17
 ---
 
 ## Goal

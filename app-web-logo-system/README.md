@@ -45,6 +45,7 @@ bananahub add bananahub-ai/templates/app-web-logo-system
 
 ## Verified Models
 
+- `gpt-image-2` — verified with `samples/sample-gpt-image-2-01.png`, showing a short-text app icon, favicon, and web lockup board
 - `gemini-3-pro-image-preview` — bundled BananaHub brand-case sample in `samples/sample-3-pro-01.png`, showing the approved icon baseline plus a matching website lockup
 
 The checked-in BananaHub sample is a worked example of the workflow after concept approval. The website lockup shown in the sample is a local deterministic derivative from the same approved mark, which matches the workflow rule to generate the icon idea first and derive locked variants second.
@@ -60,6 +61,7 @@ The checked-in BananaHub sample is a worked example of the workflow after concep
 | File | Model | Notes |
 |------|-------|-------|
 | `samples/sample-3-pro-01.png` | `gemini-3-pro-image-preview` | BananaHub worked-example board: approved ringless app icon baseline plus a matching `BananaHub` website lockup derived from the same core mark |
+| `samples/sample-gpt-image-2-01.png` | `gpt-image-2` | Icon-first BananaHub board with locked `BananaHub`, `App icon`, `Favicon`, and `Web lockup` text |
 
 ## Sources
 

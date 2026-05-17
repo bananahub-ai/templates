@@ -10,7 +10,7 @@ profile: photo
 tags: [赛博朋克, 城市, 夜景, 科幻, neon]
 models:
   - name: gpt-image-2
-    tested: false
+    tested: true
     quality: best
   - name: gemini-3.1-flash-image-preview
     tested: true
@@ -59,8 +59,14 @@ samples:
     prompt_variant: gemini
     prompt: "A photorealistic wide-angle shot of a cyberpunk city street at night. A rain-soaked narrow alley lined with storefronts, holographic advertisements floating above the shops and flickering neon signage in the distance. The scene is bathed in pink and cyan neon light reflecting off the wet pavement and puddles. Dense fog drifts through the alley with volumetric light rays piercing through from above, creating visible shafts of colored light. Captured with a 35mm wide-angle lens, deep focus keeping both the foreground puddles and distant buildings sharp. Cinematic composition with leading lines drawing the eye into the depth of the street."
     aspect: "16:9"
+  - file: samples/sample-gpt-image-2-01.png
+    provider: chatgpt-compatible
+    model: gpt-image-2
+    prompt_variant: gpt-image
+    prompt: "Create a cinematic cyberpunk city scene showing a rainy neon alley at night. Use strong pink and cyan neon signs reflected on wet pavement, dense urban depth, steam, umbrellas in the distance, layered architecture, and one clear focal path leading into the street. Photorealistic wide-angle 35mm look, deep focus, wet pavement reflections, moody futuristic atmosphere. Avoid readable sign text, random logos, cluttered foreground objects, distorted people, overexposed neon bloom, watermarks, or extra text."
+    aspect: "16:9"
 created: 2026-03-24
-updated: 2026-03-24
+updated: 2026-05-17
 ---
 
 ## 描述

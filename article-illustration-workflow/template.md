@@ -11,7 +11,7 @@ profile: diagram
 tags: [文章配图, 文章插图, 博客配图, 教程配图, blog, article, editorial, tutorial, docs, explainer]
 models:
   - name: gpt-image-2
-    tested: false
+    tested: true
     quality: best
   - name: gemini-3-pro-image-preview
     tested: false
@@ -70,8 +70,14 @@ samples:
     prompt_variant: gemini
     prompt: "Create a scene-led editorial cover image for an article about planning illustrations. Use only these verified facts as truth: good article visuals should clarify the writing instead of distracting from it; the workflow reads the article first; image slots are decided later. Show a calm editorial desk scene with one printed article page as the focal object, a pencil, and three small unlabeled thumbnail frames placed nearby to suggest planning. No text anywhere in the image. Use a restrained warm editorial aesthetic with paper-white surfaces, ink-black details, and muted banana-gold and teal accents. Keep the composition clean, thoughtful, and suitable as a section cover rather than a technical diagram."
     aspect: "3:4"
+  - file: samples/sample-gpt-image-2-01.png
+    provider: chatgpt-compatible
+    model: gpt-image-2
+    prompt_variant: gpt-image
+    prompt: "Create one article-support illustration workflow diagram. Asset type: docs article visual. The only visible text allowed is: \"Extract claims\", \"Plan slots\", and \"Generate + review\". Show exactly three grouped stages in a left-to-right reading order, with simple icons and connector arrows. Use a restrained product-doc editorial aesthetic, warm paper-white background, ink-black linework, muted banana-gold and teal accents, high contrast, generous spacing. Do not add a title, caption, paragraph, badges, fake numbers, invented claims, extra labels, watermarks, API keys, or decorative clutter. Keep the three labels exactly spelled and readable."
+    aspect: "16:9"
 created: 2026-04-03
-updated: 2026-04-03
+updated: 2026-05-17
 ---
 
 ## Goal

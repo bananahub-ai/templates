@@ -11,7 +11,7 @@ profile: text-heavy
 tags: [README, 头图, 海报, 封面, OG, launch, hero, banner]
 models:
   - name: gpt-image-2
-    tested: false
+    tested: true
     quality: best
   - name: gemini-3-pro-image-preview
     tested: true
@@ -64,8 +64,14 @@ samples:
     prompt_variant: gemini
     prompt: "Create an OG cover image for BananaHub. Keep the exact headline 'Build image workflows, not prompt piles'. Use minimal supporting text: 'Templates, editing, and iterative guidance for Gemini images'. Composition should be optimized for a wide social card, with clear breathing room around the text and one memorable visual metaphor based on modular prompt cards snapping into a guided workflow. Strong hierarchy, strong contrast, no clutter. Use a clean editorial product aesthetic with banana gold accents, black typography, and subtle paper texture."
     aspect: "16:9"
+  - file: samples/sample-gpt-image-2-01.png
+    provider: chatgpt-compatible
+    model: gpt-image-2
+    prompt_variant: gpt-image
+    prompt: "Create a README launch visual for BananaHub. Asset type: wide GitHub README hero. Exact headline: \"Build image workflows, not prompt piles\". Exact supporting line: \"Templates, editing, and provider-aware routing\". Show modular prompt cards snapping into a clean workflow that outputs a polished image frame. Layout: wide 16:9 hero with strong headline hierarchy, product-doc composition, warm paper-white background, ink-black typography, banana-gold and teal accents. Do not add extra UI labels, fake badges, fake GitHub stars, fake charts, fake screenshots, watermarks, API keys, or filler copy. Keep the two text lines exactly spelled and readable."
+    aspect: "16:9"
 created: 2026-03-31
-updated: 2026-03-31
+updated: 2026-05-17
 ---
 
 ## Goal

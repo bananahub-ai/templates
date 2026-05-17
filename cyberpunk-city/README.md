@@ -10,6 +10,7 @@ bananahub add bananahub-ai/templates/cyberpunk-city
 
 ## Verified Models
 
+- `gpt-image-2` — verified with `samples/sample-gpt-image-2-01.png`
 - `gemini-3.1-flash-image-preview` — verified with `samples/sample-3.1-flash-01.png`
 
 ## Supported Models
@@ -24,6 +25,7 @@ bananahub add bananahub-ai/templates/cyberpunk-city
 | File | Model | Prompt Variant | Notes |
 |---|---|---|---|
 | `samples/sample-3.1-flash-01.png` | `gemini-3.1-flash-image-preview` | `gemini` | Neon cyberpunk street/city sample |
+| `samples/sample-gpt-image-2-01.png` | `gpt-image-2` | `gpt-image` | Cinematic rainy neon alley with wet pavement reflections and dense city depth |
 
 ## License
 

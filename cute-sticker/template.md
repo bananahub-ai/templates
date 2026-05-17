@@ -10,7 +10,7 @@ profile: sticker
 tags: [贴纸, 表情包, Q版, 可爱, chibi]
 models:
   - name: gpt-image-2
-    tested: false
+    tested: true
     quality: best
   - name: gemini-3.1-flash-image-preview
     tested: true
@@ -59,8 +59,14 @@ samples:
     prompt_variant: gemini
     prompt: "A cute chibi sticker of a round fluffy cat, happy and excited with oversized sparkly eyes and a wide open smile, waving both paws enthusiastically. Kawaii anime style with bold black outline, flat cel-shaded colors, and clean white background. Super deformed proportions with an oversized head (head-to-body ratio 1:1), die-cut sticker-ready composition, simple rounded shapes, vibrant pastel-accented colors."
     aspect: "1:1"
+  - file: samples/sample-gpt-image-2-01.png
+    provider: chatgpt-compatible
+    model: gpt-image-2
+    prompt_variant: gpt-image
+    prompt: "Create a cute chibi sticker of a chubby orange cat holding a tiny fish. Use rounded kawaii vector style with thick clean outlines, soft pastel colors, a happy playful expression, and a centered die-cut sticker silhouette on a plain white background. Keep the character fully inside the frame with generous padding. No text, no complex scenery, no extra props beyond the tiny fish, no cropped edges, no duplicated limbs, no busy shadows, no watermark."
+    aspect: "1:1"
 created: 2026-03-24
-updated: 2026-03-24
+updated: 2026-05-17
 ---
 
 ## 描述

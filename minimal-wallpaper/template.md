@@ -10,7 +10,7 @@ profile: minimal
 tags: [极简, 壁纸, 手机, 留白, 简约]
 models:
   - name: gpt-image-2
-    tested: false
+    tested: true
     quality: best
   - name: gemini-3.1-flash-image-preview
     tested: true
@@ -59,8 +59,14 @@ samples:
     prompt_variant: gemini
     prompt: "A minimalist phone wallpaper featuring a single small paper boat centered in the lower third of the frame with vast empty space above. Soft cream background with a muted blue accent on the subject. Clean vector illustration with subtle grain texture and crisp edges. Expansive negative space occupying most of the image, serene and contemplative mood."
     aspect: "9:16"
+  - file: samples/sample-gpt-image-2-01.png
+    provider: chatgpt-compatible
+    model: gpt-image-2
+    prompt_variant: gpt-image
+    prompt: "Create a minimal phone wallpaper with a single small paper boat centered in the lower third with vast empty space above. Use a soft cream background with one muted blue accent, clean vector shapes, subtle grain, calm contemplative mood. Keep at least 75 percent negative space and leave safe empty areas for phone clock, notch, and dock. No text, no extra objects, no detailed background, no visual clutter, no busy centered composition, no watermark."
+    aspect: "9:16"
 created: 2026-03-24
-updated: 2026-03-24
+updated: 2026-05-17
 ---
 
 ## 描述
