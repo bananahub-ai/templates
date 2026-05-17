@@ -11,9 +11,12 @@ bananahub add bananahub-ai/templates/minimal-wallpaper
 ## Verified Models
 
 - `gpt-image-2` — verified with `samples/sample-gpt-image-2-01.png`
+- `gemini-3.1-flash-image-preview` — verified with `samples/sample-3.1-flash-01.png`
 
 ## Supported Models
 
+- `gemini-3-pro-image-preview` — best fit for polished minimal compositions
+- `gemini-3.1-flash-image-preview` — good fast option for simple wallpaper variants
 - `gpt-image-2` — supported through the `gpt-image` prompt variant for clean negative-space wallpaper compositions
 - `gpt-image-1` — compatible fallback through the `gpt-image` prompt variant
 
@@ -21,6 +24,7 @@ bananahub add bananahub-ai/templates/minimal-wallpaper
 
 | File | Model | Prompt Variant | Notes |
 |---|---|---|---|
+| `samples/sample-3.1-flash-01.png` | `gemini-3.1-flash-image-preview` | `gemini` | Vertical minimal wallpaper sample |
 | `samples/sample-gpt-image-2-01.png` | `gpt-image-2` | `gpt-image` | Vertical paper-boat wallpaper with large clock-safe negative space |
 
 ## License

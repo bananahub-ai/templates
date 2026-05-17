@@ -11,15 +11,20 @@ bananahub add bananahub-ai/templates/readme-launch-visual
 ## Verified Models
 
 - `gpt-image-2` — verified with `samples/sample-gpt-image-2-01.png` for a locked-copy README hero
+- `gemini-3-pro-image-preview` — verified with `samples/sample-3-pro-01.png` and `samples/sample-3-pro-02.png` for homepage hero and OG cover variants
 
 ## Supported Models
 
 - `gpt-image-2` — supported through the `gpt-image` prompt variant for locked-copy README heroes and OG covers
+- `gemini-3-pro-image-preview` — best fit when headline rendering and composition quality matter
+- `gemini-3.1-flash-image-preview` — good option for faster concepting before refining the final hero
 
 ## Sample Outputs
 
 | File | Model | Prompt / Variant |
 |---|---|---|
+| `samples/sample-3-pro-01.png` | `gemini-3-pro-image-preview` | Wide launch hero for `BananaHub` with the locked headline `Agent-native image workflows` and support line `Prompt optimization, templates, and editing in one flow` |
+| `samples/sample-3-pro-02.png` | `gemini-3-pro-image-preview` | Wide OG-cover style launch visual with the locked headline `Build image workflows, not prompt piles` and a modular template-to-image card metaphor |
 | `samples/sample-gpt-image-2-01.png` | `gpt-image-2` | Wide README hero with locked headline `Build image workflows, not prompt piles` and support line `Templates, editing, and provider-aware routing` |
 
 ## License

@@ -50,6 +50,12 @@ prompt_variants:
 aspect: "1:1"
 difficulty: intermediate
 samples:
+  - file: samples/sample-3-pro-01.png
+    provider: google-ai-studio
+    model: gemini-3-pro-image-preview
+    prompt_variant: gemini
+    prompt: "Using the provided reference image of Miso, create a 3x3 contact sheet. All 9 cells must show the same Siamese cat character, the same teal neck scarf with a small gold bell, the same soft pastel interior environment, and the same warm daylight lighting. Each cell should use a different natural pose or camera angle while keeping facial structure, fur pattern, blue eyes, proportions, palette, and background continuity stable across the grid. Avoid duplicate frames. Keep the tone cute, clean, and IP-friendly."
+    aspect: "1:1"
   - file: samples/sample-gpt-image-2-01.png
     provider: chatgpt-compatible
     model: gpt-image-2

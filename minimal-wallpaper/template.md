@@ -53,6 +53,12 @@ prompt_variants:
 aspect: "9:16"
 difficulty: beginner
 samples:
+  - file: samples/sample-3.1-flash-01.png
+    provider: google-ai-studio
+    model: gemini-3.1-flash-image-preview
+    prompt_variant: gemini
+    prompt: "A minimalist phone wallpaper featuring a single small paper boat centered in the lower third of the frame with vast empty space above. Soft cream background with a muted blue accent on the subject. Clean vector illustration with subtle grain texture and crisp edges. Expansive negative space occupying most of the image, serene and contemplative mood."
+    aspect: "9:16"
   - file: samples/sample-gpt-image-2-01.png
     provider: chatgpt-compatible
     model: gpt-image-2

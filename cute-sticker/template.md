@@ -53,6 +53,12 @@ prompt_variants:
 aspect: "1:1"
 difficulty: beginner
 samples:
+  - file: samples/sample-3.1-flash-01.png
+    provider: google-ai-studio
+    model: gemini-3.1-flash-image-preview
+    prompt_variant: gemini
+    prompt: "A cute chibi sticker of a round fluffy cat, happy and excited with oversized sparkly eyes and a wide open smile, waving both paws enthusiastically. Kawaii anime style with bold black outline, flat cel-shaded colors, and clean white background. Super deformed proportions with an oversized head (head-to-body ratio 1:1), die-cut sticker-ready composition, simple rounded shapes, vibrant pastel-accented colors."
+    aspect: "1:1"
   - file: samples/sample-gpt-image-2-01.png
     provider: chatgpt-compatible
     model: gpt-image-2

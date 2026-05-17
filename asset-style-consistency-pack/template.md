@@ -52,6 +52,18 @@ aspect: "1:1"
 difficulty: advanced
 category: assets
 samples:
+  - file: samples/sample-3-pro-01.png
+    provider: google-ai-studio
+    prompt_variant: gemini
+    model: gemini-3-pro-image-preview
+    prompt: "Keep the exact building layout, pool placement, fountain placement, trees, and overall camera angle unchanged. Transform this image into a clean architectural concept illustration with a restrained pastel palette, soft afternoon lighting, matte materials, and crisp presentation lines. Preserve the house geometry and outdoor elements while normalizing the whole scene into one polished visual family. Do not add new objects or change the composition."
+    aspect: "16:9"
+  - file: samples/sample-3-pro-02.png
+    provider: google-ai-studio
+    model: gemini-3-pro-image-preview
+    prompt_variant: gemini
+    prompt: "Keep the exact building layout, pool placement, fountain placement, trees, and overall camera angle unchanged. Restyle this image into a premium dusk visualization with deep navy shadows, warm interior glow, reflective water, cleaner material separation, and polished architectural presentation. Preserve the house geometry and all outdoor elements while shifting the whole image into one coherent evening-render family. Do not add new objects or change the composition."
+    aspect: "16:9"
   - file: samples/sample-gpt-image-2-01.png
     provider: chatgpt-compatible
     model: gpt-image-2

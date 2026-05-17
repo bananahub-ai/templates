@@ -52,6 +52,18 @@ aspect: "16:9"
 difficulty: intermediate
 category: marketing
 samples:
+  - file: samples/sample-3-pro-01.png
+    provider: google-ai-studio
+    prompt_variant: gemini
+    model: gemini-3-pro-image-preview
+    prompt: "Create a launch visual for BananaHub. Use the exact headline 'Agent-native image workflows' as the dominant text. Add the supporting line 'Prompt optimization, templates, and editing in one flow' in a smaller secondary position. The asset target is a homepage hero banner. Use a bold terminal-meets-product-doc composition with layered prompt cards flowing into generated image frames. Keep the design high-contrast, clean, and readable at a glance. Use a modern editorial product aesthetic with warm banana gold, ink black, and paper white. Do not invent extra UI labels or filler marketing copy."
+    aspect: "16:9"
+  - file: samples/sample-3-pro-02.png
+    provider: google-ai-studio
+    model: gemini-3-pro-image-preview
+    prompt_variant: gemini
+    prompt: "Create an OG cover image for BananaHub. Keep the exact headline 'Build image workflows, not prompt piles'. Use minimal supporting text: 'Templates, editing, and iterative guidance for Gemini images'. Composition should be optimized for a wide social card, with clear breathing room around the text and one memorable visual metaphor based on modular prompt cards snapping into a guided workflow. Strong hierarchy, strong contrast, no clutter. Use a clean editorial product aesthetic with banana gold accents, black typography, and subtle paper texture."
+    aspect: "16:9"
   - file: samples/sample-gpt-image-2-01.png
     provider: chatgpt-compatible
     model: gpt-image-2

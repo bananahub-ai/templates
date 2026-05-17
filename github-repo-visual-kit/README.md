@@ -43,6 +43,8 @@ Inside BananaHub Skill, prefer discovery:
 ## Supported Models
 
 - `gpt-image-2` — recommended first-pass model for strict text limits, label control, and README legibility.
+- `gemini-3-pro-image-preview` — good fit for richer composition and polished README visuals.
+- `gemini-3.1-flash-image-preview` — good faster option for early visual directions.
 - `gpt-image-1` — compatible fallback through the `gpt-image` prompt variant.
 
 ## Sample Outputs

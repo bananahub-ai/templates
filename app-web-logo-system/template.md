@@ -52,6 +52,12 @@ aspect: "1:1"
 difficulty: intermediate
 category: branding
 samples:
+  - file: samples/sample-3-pro-01.png
+    provider: google-ai-studio
+    model: gemini-3-pro-image-preview
+    prompt_variant: gemini
+    prompt: "Create an icon-first logo system sample for BananaHub. Use one bold black peeled-banana symbol as the approved core mark, keep it centered and high-contrast on a warm off-white presentation board, and show two outputs from the same baseline: one square app-icon-safe symbol and one clean website lockup with the exact wordmark 'BananaHub'. Keep the palette monochrome, flat, and minimal. No gradients, no mascots, no extra copy beyond the locked brand name and short usage labels."
+    aspect: "1:1"
   - file: samples/sample-gpt-image-2-01.png
     provider: chatgpt-compatible
     model: gpt-image-2

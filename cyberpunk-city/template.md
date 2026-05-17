@@ -53,6 +53,12 @@ prompt_variants:
 aspect: "16:9"
 difficulty: beginner
 samples:
+  - file: samples/sample-3.1-flash-01.png
+    provider: google-ai-studio
+    model: gemini-3.1-flash-image-preview
+    prompt_variant: gemini
+    prompt: "A photorealistic wide-angle shot of a cyberpunk city street at night. A rain-soaked narrow alley lined with storefronts, holographic advertisements floating above the shops and flickering neon signage in the distance. The scene is bathed in pink and cyan neon light reflecting off the wet pavement and puddles. Dense fog drifts through the alley with volumetric light rays piercing through from above, creating visible shafts of colored light. Captured with a 35mm wide-angle lens, deep focus keeping both the foreground puddles and distant buildings sharp. Cinematic composition with leading lines drawing the eye into the depth of the street."
+    aspect: "16:9"
   - file: samples/sample-gpt-image-2-01.png
     provider: chatgpt-compatible
     model: gpt-image-2

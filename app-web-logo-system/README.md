@@ -13,7 +13,7 @@ bananahub add bananahub-ai/templates/app-web-logo-system
 - Start from the most restrictive surface. For most teams that means the square app icon or favicon, not the full website lockup.
 - Prefer icon-first exploration. App icons and favicons usually work better when they do not depend on long text.
 - Keep one focal idea. The best platform guidance converges on a simple, recognizable mark with a strong silhouette.
-- Ask GPT Image 2 for flat, centered, high-contrast symbols. Avoid mockups, scenes, glossy 3D effects, tiny details, and fake UI.
+- Ask Gemini for flat, centered, high-contrast symbols. Avoid mockups, scenes, glossy 3D effects, tiny details, and fake UI.
 - Treat text as an exact lock. Only request initials or a wordmark when the copy is final and short enough to verify.
 - Create variants on purpose: icon-only, wordmark, monochrome, and maskable or adaptive-icon versions should be separate passes.
 - Review at small sizes early. If the mark fails at 16 to 32 pixels, simplify geometry before exploring style.
@@ -37,7 +37,7 @@ bananahub add bananahub-ai/templates/app-web-logo-system
 
 ## Prompt Heuristics
 
-- Give GPT Image 2 brand context, not just the word "logo". A prompt like "a privacy-first finance app icon" is stronger than "make a logo".
+- Give Gemini brand context, not just the word "logo". A prompt like "a privacy-first finance app icon" is stronger than "make a logo".
 - Keep prompts in natural sentences and keep the first generation short and constrained.
 - Separate icon-only and wordmark generations into different passes.
 - Use exact quotes for any initials or wordmark text that must render.
@@ -46,17 +46,21 @@ bananahub add bananahub-ai/templates/app-web-logo-system
 ## Verified Models
 
 - `gpt-image-2` — verified with `samples/sample-gpt-image-2-01.png`, showing a short-text app icon, favicon, and web lockup board
+- `gemini-3-pro-image-preview` — bundled BananaHub brand-case sample in `samples/sample-3-pro-01.png`, showing the approved icon baseline plus a matching website lockup
 
-The checked-in BananaHub sample is a worked example of the workflow after concept approval.
+The checked-in BananaHub sample is a worked example of the workflow after concept approval. The website lockup shown in the sample is a local deterministic derivative from the same approved mark, which matches the workflow rule to generate the icon idea first and derive locked variants second.
 
 ## Supported Models
 
 - `gpt-image-2` — supported through the `gpt-image` prompt variant for simple icon-first logo systems and strict short text
+- `gemini-3-pro-image-preview` — best fit when concept quality, exact short text, and geometric stability matter most
+- `gemini-3.1-flash-image-preview` — good faster option for ideation and early variant exploration
 
 ## Sample Outputs
 
 | File | Model | Notes |
 |------|-------|-------|
+| `samples/sample-3-pro-01.png` | `gemini-3-pro-image-preview` | BananaHub worked-example board: approved ringless app icon baseline plus a matching `BananaHub` website lockup derived from the same core mark |
 | `samples/sample-gpt-image-2-01.png` | `gpt-image-2` | Icon-first BananaHub board with locked `BananaHub`, `App icon`, `Favicon`, and `Web lockup` text |
 
 ## Sources
